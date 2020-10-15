@@ -9,4 +9,7 @@ enum TYPE {
 public class ActionOnPost {
     TYPE type = TYPE.DEFAULT;
     String actionName;
+    boolean canPin;
+    boolean canDelete;
+    boolean canEdit;
 }

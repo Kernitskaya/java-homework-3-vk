@@ -14,4 +14,7 @@ public class CommentsInfo {
     STATE state = STATE.INTERESTING;
     Comment mainComment;
     boolean isStateVisible;
+    boolean groupsCanPost;
+    boolean canClose;
+    boolean canOpen;
 }

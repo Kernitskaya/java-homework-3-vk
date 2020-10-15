@@ -5,7 +5,7 @@ package domain.actions;
  */
 public class CallToAction {
     String text;
-    String source;
+    String copyright;
     String url;
     String buttonText;
     boolean showActionButton;
